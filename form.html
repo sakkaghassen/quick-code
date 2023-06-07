@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <script src="https://kit.fontawesome.com/48c4fd7bdc.js" crossorigin="anonymous"></script>
+
+    <title>formulaire</title>
+</head>
+
+
+
+
+<body>
+    
+    <header>
+        <a class="logos" href="#">Quick<span class="x1 ">Code</span>&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        Show me the code!</a>
+            <form class="f2 ">
+                <input type="text " placeholder="Search here! "><button class="search-button "><i class="fas fa-search "></i></button>
+            </form>
+        </header>
+    
+    
+
+
+        <div class="navbar ">
+            <ul>
+                <li><a href="quickcode.html">Acceuil</a></li>
+                <li><a href="presentation.html">Presentation</a>
+                    
+                </li>
+                <li><a href="formation.html">Formations</a>
+                   
+                </li>
+                <li><a href="inscription.html">Inscription</a></li>
+                
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="form2.html">Consultation</a></li>
+    
+                
+    
+    
+            </ul>
+    
+        </div>
+       
+    </div>
+    
+        <div class="titreformu1">
+            <p>Inscrivez-vous</p></div>
+               <div> <p class="titreformu2"> Un de nos conseillers vous contactera au plus vite</p>
+        </div>
+                  <div class="form">
+
+        <form method="POST" name="inscription"  action="inscription.php">
+            <fieldset> <legend class="titreform">Informations personelle</legend>
+                
+               <div class="liste">
+              <div class="champ"><input class="rect" type="text" name="nom" required placeholder="saisir votre nom" > <p>Nom </p></div> 
+              <div class="champ">  <input class="rect" type="text" name="prenom" required placeholder="saisir votre prenom" ><p>Prénom </p></div> 
+              <div class="champ"><input class="rect" type="tel" name="cin" required placeholder="saisir votre cin" ><p>CIN</p> </div> 
+              <div class="champ">  <input class="rect" type="tel" name="tel" required placeholder="saisir votre tel" ><p>Tel </p></div> 
+              <div class="champ"> <input class="rect" type="email" name="mail" required placeholder="saisir votre email" ><p>Mail </p></div> 
+              <div class="champ"><input class="rect" type="password" name="mdp" required placeholder="saisir votre  MDP" > <p>MDP</p></div> 
+              <div class="champ"><input class="rect" type="password" name="cmd" required placeholder="confirmer votre  MDP" > <p>Confirmation MDP</p></div> 
+              <div class="champ"><input class="rect" type="date" name="ddn" required placeholder="Saisir votre votre  date de naissance" > <p>Date de Naissance</p></div>
+            </div>
+        
+           
+
+              
+        
+    
+        </fieldset>
+        <fieldset>
+            <legend class="titreform">Formations</legend>
+            <br>
+           
+           <h3>Choisir les formations :</h3>
+           
+           <div class="liste2">
+            <div class="champ2"><p> la Cyber sécurité</p><div class="carre"> <input type="checkbox" name="cyber" value="cyber" ></div></div>
+                <div class="champ2"><p>  l'intellegence artificielle </p><div class="carre"> <input type="checkbox" name="intelligence" value="intelligence" ></div></div>
+                    <div class="champ2"><p>Deep learning </p><div class="carre"> <input type="checkbox" name="deep" value="deep" ></div></div>
+                        <div class="champ2"><p> Business Intelligence</p><div class="carre"><input type="checkbox" name="Business" value="Business" ></div></div>
+                            <div class="champ2"> <p>SEO & E-commerce </p><div class="carre"><input type="checkbox" nale="commerce" value="commerce" ></div></div>
+           
+           </div>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend class="titre">Informations supplémentaire</legend>
+            <br>
+          <div><div class="txt">   vous étes :</div> <div><select name="genre" Size="1">
+                <option  name="genre" value="homme"> homme</option>
+                <option name="genre" value="femme"> Femme</option>
+            </select></div>
+        </div> 
+        
+            <br>
+        <div> <div class="txt"> Etat civil :</div> <div class="champ3"><div>célibataire <input type="Radio" name="etat" value="celibataire"></div><div>Marié  <input type="Radio" name="etat" value="Marie"></div><div>divorcé <input type="Radio" name="etat" value="divorce "></div></div> 
+        </div><br>
+           <div class="txt">Votre age :</div><input class="rect" name="age" type="number">
+    
+           <br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend class="titreform">Mode de paiment</legend>
+          <br>
+        
+         <div class="champ4"><div class="txt">Sur place</div> <div><input type="Radio" name="mode" value="sur place"></div></div>
+         <div class="champ4"> <div class="txt">En ligne</div><div><input type="Radio" name="mode" value="en ligne"></div></div>
+        
+          <br>
+              </fieldset>
+          <input class="bouton1" type="submit" value="envoyer"><input class="bouton2" type="reset" value="effacer">
+        
+    </form>
+    
+
+    </div>
+    <footer>
+        <div class="bloc1 ">
+            <h2>Reseaux sociaux</h2>
+            <div class="links">
+                <a href=" " class="fb "> <i class="fab fa-facebook"></i></a>
+                <a href=" " class="inst "> <i class="fab fa-instagram"></i></a>
+                <a href=" " class="twt "> <i class="fab fa-twitter-square "></i></a>
+            </div>
+
+        </div>
+
+        <div class="bloc2 ">
+            <h2>Ou nous trouvez</h2>
+            <a href=" " class="mp "><i class="fas fa-map-marker-alt "></i>Manar 1</a>
+            <a href=" " class="mp "><i class="fas fa-map-marker-alt "></i>Tunis</a>
+            
+
+        </div>
+        <div class="bloc2 ">
+            <h2>Pour plus de details</h2>
+
+            
+            
+            <a href=" " class="mp "><i class="fas fa-phone-alt "></i>+216-------</a></p>
+
+            <a href=" " class="mp "><i class="fas fa-envelope "></i>Quick@gmail.com</a>
+        </div>
+        <div class="qr">
+        <h2>scanner le code suivant</h2>
+            <img  src="qrcode.jpg">
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
